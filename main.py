@@ -50,12 +50,12 @@ def index():
     銀行名or住所or企業名を入力してください：
     </p>
     <p>
-    <input type="text" name="doc1" size="40" maxlength="50"></br></br>
-    <input type="text" name="doc2" size="40" maxlength="50"></br></br>
-    <input type="text" name="doc3" size="40" maxlength="50"></br></br>
-    <input type="text" name="doc4" size="40" maxlength="50"></br></br>
-    <input type="text" name="doc5" size="40" maxlength="50"></br></br>
-    <input type="text" name="doc6" size="40" maxlength="50">
+    <input required type="text" name="doc1" size="40" maxlength="50"></br></br>
+    <input required type="text" name="doc2" size="40" maxlength="50"></br></br>
+    <input required type="text" name="doc3" size="40" maxlength="50"></br></br>
+    <input required type="text" name="doc4" size="40" maxlength="50"></br></br>
+    <input required type="text" name="doc5" size="40" maxlength="50"></br></br>
+    <input required type="text" name="doc6" size="40" maxlength="50">
     </p>
     <p>
     <input type="submit" value="送信する">
